@@ -1,11 +1,5 @@
-.navbar{
-    padding: 0px 2em;
-}
-
-.navbar-brand{
-    background-color: lightseagreen;    
-    padding: 15px;
-    color: white;
-    margin: 0px;
-    border: 0px;
+@media (max-width: 900px){
+    #top{
+        margin: 0;
+    }
 }
