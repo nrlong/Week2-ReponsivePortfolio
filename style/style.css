@@ -1,5 +1,16 @@
-@media (max-width: 900px){
-    #top{
-        margin: 0;
+.navbar-nav{ 
+    margin: auto;
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        margin: auto;
     }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .nav-link{
+        margin: 0 .5rem;
+    }
+    
 }
