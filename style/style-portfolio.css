@@ -2,10 +2,12 @@
     margin-top: 1.5rem;
 }
 
-/* #port-row{
-    padding: 0;
-} */
-
 #port-cards{
     margin: 2px;
+    background-color: lightgray;
+    border-style: dotted;
+}
+
+#portfolio-img{
+    width: 100%;
 }
