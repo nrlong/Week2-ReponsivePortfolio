@@ -25,42 +25,45 @@ body{
     
 }
 
-
-
-
-
-
 /* About me card adjustments */
 
 #about-me{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
     width: 50%;
     position: absolute;
 }
 
-.content-info{
-    
+#title{
+    margin-left: 1.25rem;
 }
 
+
 #prog-img{
-    width: 20%;
+    width: 200px;
     float: left;
     margin: 0 1rem 0rem .25rem;
     
 }
 
-
-@media (max-width: 767px){
-    #prog-img{
-        margin: auto;
-    }
-}
-
-
-
 @media (max-width: 767px){
     #about-me{
         width: auto;
         margin: auto;
+        position: relative;
+    }
+
+    #title{
+        margin: auto;
+    }
+    #prog-img{
+        width: auto;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    .content-info{
         position: relative;
     }
 }
@@ -73,6 +76,5 @@ footer{
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background-color: darkgray;
     color: white;
 }
