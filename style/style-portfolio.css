@@ -10,4 +10,11 @@
 
 #portfolio-img{
     width: 100%;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px){
+    #port-cards{
+        margin-bottom: 2rem;
+    }
 }
