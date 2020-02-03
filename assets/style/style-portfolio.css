@@ -3,9 +3,10 @@
 }
 
 #port-cards{
-    margin: 2px;
+    margin: 10px;
     background-color: lightgray;
     border-style: none;
+    margin-top: auto;
 }
 
 #portfolio-img{
