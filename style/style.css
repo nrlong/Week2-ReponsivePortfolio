@@ -25,15 +25,45 @@ body{
     
 }
 
-/* portfolio image adjustments */
+
+
+
+
+
+/* About me card adjustments */
+
+#about-me{
+    width: 50%;
+    position: absolute;
+}
 
 #prog-img{
     width: 20%;
+    float:left;
+    margin: 0 1rem 0rem .25rem;
+    
+}
+
+
+@media (max-width: 767px){
+    #prog-img{
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width: 767px){
+    #about-me{
+        width: auto;
+        margin: auto;
+        position: relative;
+    }
 }
 
 /* footer */
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
