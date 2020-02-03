@@ -1,0 +1,94 @@
+body{
+    background-color: lightgray;
+}
+
+
+/* navigation bar adjustments */
+.navbar-brand{
+    margin-left: 2rem;
+}
+
+.navbar-nav{ 
+    margin: auto;
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        margin: auto;
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .nav-link{
+        margin: 0 .5rem;
+    }
+    
+}
+
+/* About me card adjustments */
+
+#about-me{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    width: 50%;
+    position: absolute;
+}
+
+#title{
+    margin: 1.25rem 0 0 1.25rem;
+}
+
+
+#prog-img{
+    width: 200px;
+    float: left;
+    margin: 0 1rem 0rem .25rem;
+    
+}
+
+@media (max-width: 767px){
+    #about-me{
+        width: auto;
+        margin: auto;
+        position: relative;
+    }
+
+    #title{
+        margin: auto;
+    }
+    #prog-img{
+        width: auto;
+        margin: auto;
+        display: block;
+        float: none;
+    }
+
+    .content-info{
+        position: relative;
+    }
+}
+
+/* footer */
+/* #footer-text{
+    
+} */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 767px){
+    footer{
+        clear: both;   
+        position: fixed;
+        margin-top: auto;
+        bottom: 0;
+        width: 100%;
+    }
+}

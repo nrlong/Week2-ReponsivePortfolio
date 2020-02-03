@@ -1,0 +1,20 @@
+#portfolio-content{
+    margin-top: 1.5rem;
+}
+
+#port-cards{
+    margin: 2px;
+    background-color: lightgray;
+    border-style: none;
+}
+
+#portfolio-img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px){
+    #port-cards{
+        margin-bottom: 2rem;
+    }
+}
