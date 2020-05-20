@@ -28,10 +28,10 @@ body{
 /* About me card adjustments */
 
 #about-me{
-    margin-top: 1.5rem;
-    margin-left: 2rem;
+    margin-top: 5%;
+    margin-left: auto;
     width: 50%;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #title{
@@ -79,6 +79,10 @@ footer{
     text-align: center;
     color: white;
 } 
+
+.gitHub{
+    width: 2%;
+}
 
 /* @media (min-width: 767px){
     footer{
