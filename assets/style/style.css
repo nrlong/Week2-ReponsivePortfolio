@@ -43,6 +43,7 @@ body{
     width: 200px;
     float: left;
     margin: 0 1rem 0rem .25rem;
+    border-radius: 50%;
     
 }
 
