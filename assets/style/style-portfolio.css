@@ -5,16 +5,18 @@
 #port-cards{
     margin: 10px;
     background-color: lightgray;
-    border-style: none;
+    border-style: groove;
     margin-top: auto;
+    margin-bottom: 3rem;
+    
 }
 
 #port-row{
     margin: auto;
 }
 
-#portfolio-img{
-    width: 100%;
+#weather, #password, #traveler, #quizNotes{
+    width: 50%;
     border-radius: 20%;
 }
 
